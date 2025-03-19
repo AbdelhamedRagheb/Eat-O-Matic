@@ -1,0 +1,2 @@
+# Eat-O-Matic
+ Eat-O-Matic is a modern, AI-powered web application designed to revolutionize the restaurant food delivery experience. It offers users a seamless platform to explore, order, and enjoy their favorite meals from the comfort of their homes. With intelligent recommendations, personalized search, and a user-friendly interface, Eat-O-Matic ensures that every user finds exactly what they’re craving.
