@@ -4,4 +4,4 @@
 # WireFrames 
 => https://excalidraw.com/#json=NZL6XTJ1x2w8Cd-9wviMK,XTBcrX_TI9EJZz1QDSa1GA
 # UI/UX 
-=> https://www.figma.com/design/uTYFUaJl5Okn1h6fVfSe17/Untitled?node-id=0-1&t=zFD0Ql7C4F1gFobg-1
+home , about , sign , login => https://www.figma.com/design/uTYFUaJl5Okn1h6fVfSe17/Untitled?node-id=0-1&t=zFD0Ql7C4F1gFobg-1
