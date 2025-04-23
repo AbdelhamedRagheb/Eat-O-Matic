@@ -5,3 +5,5 @@
 => https://excalidraw.com/#json=NZL6XTJ1x2w8Cd-9wviMK,XTBcrX_TI9EJZz1QDSa1GA
 # UI/UX 
 home , about , sign , login => https://www.figma.com/design/uTYFUaJl5Okn1h6fVfSe17/Untitled?node-id=0-1&t=zFD0Ql7C4F1gFobg-1
+
+profile , menu => https://www.figma.com/design/k0fcWcASmbuuQyCdOmvYie/Untitled?node-id=0-1&p=f&t=5W59TAWmdBomWvGg-0
