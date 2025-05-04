@@ -7,7 +7,5 @@
 # DataBase RE 
 => https://excalidraw.com/#json=GV7Ynt23_JwmQi-cbNWm7,Ohj8_TLb4OPGS1XG6H-L1w
 # UI/UX 
-home , about , sign , login => https://www.figma.com/design/uTYFUaJl5Okn1h6fVfSe17/Untitled?node-id=0-1&t=zFD0Ql7C4F1gFobg-1
-
-profile , menu => https://www.figma.com/design/k0fcWcASmbuuQyCdOmvYie/Untitled?node-id=0-1&p=f&t=5W59TAWmdBomWvGg-0
+=> https://www.figma.com/design/uTYFUaJl5Okn1h6fVfSe17/Eat_o_matic?node-id=0-1&p=f&t=dEfvhi7qFLFsv2gM-0
 
