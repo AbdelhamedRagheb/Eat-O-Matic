@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eat_O_Matic</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Inter", sans-serif;
+      }
+
+      body {
+        background-color: #fef3eb;
+        color: #333;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background-color: #fef3eb;
+        flex-wrap: wrap;
+      }
+
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #ff7a00;
+      }
+
+      .logo-tagline {
+        font-size: 14px;
+        color: #777;
+        margin-top: 4px;
+      }
+
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+      }
+
+      nav a.active {
+        border-bottom: 2px solid #333;
+      }
+
+      .search {
+        background-color: #ff7a00;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+
+      .hero {
+        text-align: center;
+        padding: 50px 20px;
+      }
+
+      .hero h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+
+      .hero p {
+        color: #777;
+      }
+
+      .dishes {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        padding: 40px;
+      }
+
+      .dish-card {
+        background: white;
+        padding: 20px;
+        border-radius: 20px;
+        width: 220px;
+        position: relative;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .dish-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+      }
+
+      .dish-card img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+
+      .dish-card .price {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: #000;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 50%;
+        font-size: 14px;
+      }
+
+      .dish-card h4 {
+        margin-top: 15px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .dish-card p {
+        color: #777;
+        font-size: 14px;
+        margin-top: 5px;
+      }
+
+      .footer {
+        text-align: left;
+        padding: 40px;
+      }
+
+      .footer .stars {
+        color: orange;
+      }
+
+      .footer .buttons {
+        margin-top: 10px;
+      }
+
+      .footer button {
+        padding: 10px 20px;
+        margin-right: 10px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+      }
+
+      .menu-btn {
+        background: #111;
+        color: white;
+      }
+
+      .ask-btn {
+        background: #ff7a00;
+        color: white;
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        header {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        nav {
+          margin-top: 10px;
+        }
+
+        .dishes {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .search {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <div class="logo">Eat_O_Matic</div>
+        <div class="logo-tagline">Delicious Food, Delivered Fast</div>
+      </div>
+      <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About</a>
+        <a href="#">Cart</a>
+        <a href="#">Login / Sign up</a>
+      </nav>
+      <button class="search">Search 🔍</button>
+    </header>
+
+    <section class="hero">
+      <h2>Our Special Dishes</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt
+      </p>
+    </section>
+
+    <section class="dishes">
+      <div class="dish-card">
+        <img src="Lumpia with Suace.jpg" alt="Lumpia" />
+        <div class="price">$12</div>
+        <h4>Lumpia with Suace</h4>
+        <p>
+          Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod
+          tempor
+        </p>
+      </div>
+      <div class="dish-card">
+        <img src="Fish and Veggie.jpg" alt="Fish and Veggie" />
+        <div class="price">$12</div>
+        <h4>Fish and Veggie</h4>
+        <p>
+          Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod
+          tempor
+        </p>
+      </div>
+      <div class="dish-card">
+        <img src="Tofu Chili.jpg" alt="Tofu Chili" />
+        <div class="price">$10</div>
+        <h4>Tofu Chili</h4>
+        <p>
+          Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod
+          tempor
+        </p>
+      </div>
+      <div class="dish-card">
+        <img src="Egg and Cucumber.jpg" alt="Egg and Cucumber" />
+        <div class="price">$10</div>
+        <h4>Egg and Cucumber</h4>
+        <p>
+          Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod
+          tempor
+        </p>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div class="stars">★★★★★</div>
+      <p><strong>5 star rating</strong><br />based on 1788 reviews</p>
+      <div class="buttons">
+        <button class="menu-btn">Menu</button>
+        <button class="ask-btn">Ask AI</button>
+      </div>
+    </div>
+  </body>
+</html>

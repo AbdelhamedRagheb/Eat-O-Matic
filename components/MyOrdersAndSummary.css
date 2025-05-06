@@ -1,0 +1,138 @@
+/* MyOrdersAndSummary.css */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #fbeada;
+}
+
+.container {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.step-indicator {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.step {
+  width: 16px;
+  height: 16px;
+  background-color: #ddd;
+  border-radius: 50%;
+}
+
+.step.filled {
+  background-color: #f26522;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.order-item img {
+  width: 48px;
+  height: 48px;
+}
+
+.info {
+  flex: 1;
+}
+
+.info p {
+  font-size: 12px;
+  color: #666;
+  margin: 4px 0;
+}
+
+.info span {
+  color: #f26522;
+  font-weight: bold;
+}
+
+.qty-control {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.qty-control button {
+  width: 24px;
+  height: 24px;
+  background-color: #f26522;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.qty-control span {
+  font-weight: bold;
+}
+
+.details-box {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 10px 16px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.details-box p {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.amount {
+  color: #f26522;
+}
+
+.btn {
+  width: 100%;
+  background-color: #f26522;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e0551b;
+}
